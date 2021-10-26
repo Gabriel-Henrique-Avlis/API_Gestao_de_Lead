@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
-const PORT = process.env.PORT;
+const PORT = 8383;
 
 app.use(express.json());
 
