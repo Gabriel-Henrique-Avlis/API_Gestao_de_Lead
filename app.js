@@ -20,7 +20,7 @@ async function main() {
 
 main().catch(err => console.log(err));
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log('Servidor on-line!');
 });
 
